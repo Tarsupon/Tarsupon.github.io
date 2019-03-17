@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TimesheetByDayComponent } from './timesheet-by-day/timesheet-by-day.component';
+import { TimesheetPeriodsComponent } from './timesheet-periods/timesheet-periods.component';
+import { TimesheetTableComponent } from './timesheet-table/timesheet-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TimesheetByDayComponent,
+    TimesheetPeriodsComponent,
+    TimesheetTableComponent
   ],
   imports: [
     BrowserModule,
