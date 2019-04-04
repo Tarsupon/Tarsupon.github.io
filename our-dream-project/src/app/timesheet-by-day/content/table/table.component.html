@@ -1,0 +1,50 @@
+<div class="mat-elevation-z8" >
+  <table mat-table class="full-width-table" [dataSource]="dataSource" matSort aria-label="Elements">
+    <!-- Column -->
+    <ng-container matColumnDef="project">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Project</th>
+      <td mat-cell *matCellDef="let row">
+        <div class="container">
+          <label>
+            <input matInput type="color" >
+          </label>
+          <mat-select placeholder="My Options">
+            <mat-option [value]="opt-1"> Option 1 </mat-option>
+            <mat-option [value]="opt-2"> Option 2 </mat-option>
+            <mat-option [value]="opt-3"> Option 3 </mat-option>
+          </mat-select>
+        </div>
+      </td>
+    </ng-container>
+
+    <!-- Column -->
+    <ng-container matColumnDef="time">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Time(hours)</th>
+      <td mat-cell *matCellDef="let row" align="center">
+        <label>
+          <input matInput type="number">
+        </label>
+      </td>
+    </ng-container>
+
+    <!-- Column -->
+    <ng-container matColumnDef="comment">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Comment</th>
+      <td mat-cell *matCellDef="let row">
+        <label>
+          <input matInput type="text">
+        </label>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator #paginator
+      [length]="dataSource.data.length"
+      [pageIndex]="0"
+      [pageSize]="7"
+      [pageSizeOptions]="['5', '8']">
+  </mat-paginator>
+</div>
