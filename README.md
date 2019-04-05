@@ -1,3 +1,3 @@
 # Mifort-logger
 It would be the best project.  
-![Иллюстрация к проекту](https://github.com/ArtemisTuzhik/ArtemisTuzhik.github.io/blob/master/images/spongebob.jpg)
+![Иллюстрация к проекту](https://www.dropbox.com/s/rb7t3oyrg8dokey/spongebob.jpg?dl=0)
