@@ -1,0 +1,71 @@
+body {
+  background: #777777;
+  height: 585px;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  background: #ffffff;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.submit {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #888888;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.forgot_pass {
+  float: right;
+}
+
+.sign-up {
+  color: #959595;
+  font-family: "Montserrat", sans-serif;
+  margin: 5px 0px;
+  font-size: 12px;
+}
+
+a {
+  color: #959595;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.password-div {
+  position: relative;
+}
+
+
+mat-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  left: 230px;
+  font-size: 15px;
+}
