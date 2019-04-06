@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ea30d33-b90a-48e2-8f97-ff9b20151dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table-datasource.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/workload/workload.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/workload/workload.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/workload/workload.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/workload/workload.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/tsconfig.app.json" afterDir="false" />
-    </list>
+    <list default="true" id="0ea30d33-b90a-48e2-8f97-ff9b20151dbc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -54,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/select/select.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -309,18 +284,25 @@
       <workItem from="1554021008867" duration="13662000" />
       <workItem from="1554036648989" duration="4618000" />
       <workItem from="1554541214253" duration="2772000" />
-      <workItem from="1554544311184" duration="20092000" />
+      <workItem from="1554544311184" duration="20354000" />
     </task>
+    <task id="LOCAL-00001" summary="add ContrBar CalendarPicker 3Buttons and Chart and select are in progress">
+      <created>1554574967585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554574967585</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76597000" />
+    <option name="totallyTimeSpent" value="76859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29017857" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29017857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -333,7 +315,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" visible="true" weight="0.30769232" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -342,6 +324,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add ContrBar CalendarPicker 3Buttons and Chart and select are in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ContrBar CalendarPicker 3Buttons and Chart and select are in progress" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/header/header.component.html">
@@ -621,8 +607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/select/select.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
