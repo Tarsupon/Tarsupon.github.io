@@ -10,20 +10,24 @@ import { SidebarItemsComponent } from './timesheet-by-day/sidebar/sidebar-items/
 import { SidebarPersonInformationComponent } from './timesheet-by-day/sidebar/sidebar-person-information/sidebar-person-information.component';
 import { ContentComponent } from './timesheet-by-day/content/content.component';
 import { HeaderComponent } from './timesheet-by-day/header/header.component';
-import { ButtonsComponent } from './timesheet-by-day/content/buttons/buttons.component';
-import { WorkloadComponent } from './timesheet-by-day/content/workload/workload.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TableComponent } from './timesheet-by-day/content/table/table.component';
-import { SignInComponent } from './sign-in/sign-in.component';
-import { SignUpComponent } from './sign-up/sign-up.component';
-import {MatIconModule} from '@angular/material/icon';
-import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+// import { SignInComponent } from './sign-in/sign-in.component';
+// import { SignUpComponent } from './sign-up/sign-up.component';
+// import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ChartsModule} from "ng2-charts";
 import {
   MatInputModule,
   MatSelectModule,
   MatSortModule,
   MatTableModule,
+  MatIconModule,
 } from '@angular/material';
+import { ControlBarComponent } from './control-bar/control-bar.component';
+import { ThreeBlueButtonsComponent } from './three-blue-buttons/three-blue-buttons.component';
+import { CalendarPickerComponent } from './calendar-picker/calendar-picker.component';
+import {FormsModule} from "@angular/forms";
+import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
+import { SelectComponent } from './select/select.component';
 
 @NgModule({
   declarations: [
@@ -34,9 +38,14 @@ import {
     SidebarPersonInformationComponent,
     ContentComponent,
     HeaderComponent,
-    ButtonsComponent,
-    WorkloadComponent,
-    TableComponent
+    ControlBarComponent,
+    ThreeBlueButtonsComponent,
+    CalendarPickerComponent,
+    DoughnutChartComponent,
+    SelectComponent,
+    // SignInComponent,
+    // SignUpComponent,
+    // ForgotPasswordComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,7 +55,10 @@ import {
     MatPaginatorModule,
     MatSortModule,
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule,
+    FormsModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,23 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea30d33-b90a-48e2-8f97-ff9b20151dbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-dream-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-dream-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table-datasource.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/workload/workload.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/workload/workload.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/workload/workload.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/workload/workload.component.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-dream-project/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-dream-project/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/tsconfig.app.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,39 +37,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="157">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#1154#1195#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.ts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/select/select.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.html">
+        <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/control-bar/control-bar.component.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/select/select.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -71,12 +82,55 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="ControlBar_CalendarPicker_3BlueButtons_DonutChart" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/Timesheet(by-day)" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/our-dream-project/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.scss" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.html" />
@@ -97,20 +151,37 @@
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/header/header.component.html" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/header/header.component.scss" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/header/header.component.scss" />
-        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.html" />
-        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.scss" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table-workload/table-workload.component.html" />
-        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.html" />
-        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.scss" />
-        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.scss" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar.component.scss" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.scss" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table-datasource.ts" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.ts" />
-        <option value="$PROJECT_DIR$/our-dream-project/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.html" />
         <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.css" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.scss" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.scss" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/three-blue-buttons/three-blue-buttons.component.scss" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/three-blue-buttons/three-blue-buttons.component.html" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/three-blue-buttons/three-blue-buttons.component.ts" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/calendar-picker/calendar-picker.component.scss" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/calendar-picker/calendar-picker.component.html" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/calendar-picker/calendar-picker.component.ts" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.html" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/styles.scss" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/index.html" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/doughnut-chart/doughnut-chart.component.scss" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/doughnut-chart/doughnut-chart.component.ts" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/doughnut-chart/doughnut-chart.component.html" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/control-bar/control-bar.component.html" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.html" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/select/select.component.scss" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/select/select.component.html" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/select/select.component.ts" />
+        <option value="$PROJECT_DIR$/our-dream-project/src/app/control-bar/control-bar.component.scss" />
       </list>
     </option>
   </component>
@@ -130,63 +201,60 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Mifort-logger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mifort-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="Tarsupon.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarsupon.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Mifort-logger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mifort-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="Tarsupon.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarsupon.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="our-dream-project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Mifort-logger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mifort-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="Tarsupon.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarsupon.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="our-dream-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Mifort-logger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mifort-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="Tarsupon.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarsupon.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="our-dream-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Mifort-logger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mifort-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="Tarsupon.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarsupon.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="our-dream-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="control-bar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tarsupon.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarsupon.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="our-dream-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="select" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tarsupon.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarsupon.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="our-dream-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="timesheet-by-day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mifort-logger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mifort-logger" type="462c0819:PsiDirectoryNode" />
-              <item name="our-dream-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="timesheet-by-day" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mifort-logger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mifort-logger" type="462c0819:PsiDirectoryNode" />
-              <item name="our-dream-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="timesheet-by-day" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="table" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +266,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
-    <property name="ts.external.directory.path" value="D:\Mifort Project\Mifort-logger\our-dream-project\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Mifort Project\Tarsupon.github.io\our-dream-project\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -240,16 +308,19 @@
       <workItem from="1553934765863" duration="20203000" />
       <workItem from="1554021008867" duration="13662000" />
       <workItem from="1554036648989" duration="4618000" />
+      <workItem from="1554541214253" duration="2772000" />
+      <workItem from="1554544311184" duration="20092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53733000" />
+    <option name="totallyTimeSpent" value="76597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29017857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29017857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -262,7 +333,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" visible="true" weight="0.30769232" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -273,134 +344,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.ts" />
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.html" />
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.ts" />
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.html" />
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.scss" />
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.scss" />
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/environments/environment.prod.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/environments/environment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/e2e/src/app.e2e-spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/e2e/src/app.po.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar-person-information/sidebar-person-information.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar-person-information/sidebar-person-information.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar-items/sidebar-items.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar-person-information/sidebar-person-information.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar-items/sidebar-items.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/header/header.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar-items/sidebar-items.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/header/header.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -408,28 +351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table-workload/table-workload.component.html" />
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/header/header.component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -439,13 +361,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar.component.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -461,30 +376,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.scss" />
-    <entry file="file://$PROJECT_DIR$/our-dream-project/node_modules/@angular-devkit/core/node/resolve.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="140" column="10" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table-datasource.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="76" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/node_modules/@angular-devkit/core/node/resolve.js" />
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table-datasource.ts" />
     <entry file="file://$PROJECT_DIR$/our-dream-project/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-577" />
@@ -503,13 +396,6 @@
         <state relative-caret-position="-2091" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -522,31 +408,221 @@
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/polyfills.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.ts">
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.css" />
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.html" />
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.ts" />
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/sidebar/sidebar.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.css">
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/sign-in/sign-in.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/sign-up/sign-up.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/sign-in/sign-in.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/header/header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/sign-in/sign-in.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/three-blue-buttons/three-blue-buttons.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/three-blue-buttons/three-blue-buttons.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/three-blue-buttons/three-blue-buttons.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="42" selection-start-line="42" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/calendar-picker/calendar-picker.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/calendar-picker/calendar-picker.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/calendar-picker/calendar-picker.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/buttons/buttons.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/doughnut-chart/doughnut-chart.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/doughnut-chart/doughnut-chart.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/doughnut-chart/doughnut-chart.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#1154#1195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/control-bar/control-bar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/select/select.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/control-bar/control-bar.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/select/select.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/select/select.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
