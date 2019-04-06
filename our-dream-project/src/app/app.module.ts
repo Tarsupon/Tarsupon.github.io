@@ -14,6 +14,10 @@ import { ButtonsComponent } from './timesheet-by-day/content/buttons/buttons.com
 import { WorkloadComponent } from './timesheet-by-day/content/workload/workload.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TableComponent } from './timesheet-by-day/content/table/table.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import {MatIconModule} from '@angular/material/icon';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import {
   MatInputModule,
   MatSelectModule,
