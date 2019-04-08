@@ -3,22 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ea30d33-b90a-48e2-8f97-ff9b20151dbc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-dream-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/timesheet-by-day.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-periods/timesheet-periods.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/app/timesheet-table/timesheet-table.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-dream-project/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/our-dream-project/src/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -44,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -130,6 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,33 +158,24 @@
               <item name="timesheet-by-day" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Mifort-logger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mifort-logger" type="462c0819:PsiDirectoryNode" />
-              <item name="our-dream-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="timesheet-by-day" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="table" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
-    <property name="ts.external.directory.path" value="D:\Mifort Project\Mifort-logger\our-dream-project\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\IntelliJ IDEA 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -240,18 +217,24 @@
       <workItem from="1553934765863" duration="20203000" />
       <workItem from="1554021008867" duration="13662000" />
       <workItem from="1554036648989" duration="4618000" />
+      <workItem from="1554389537725" duration="1118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53733000" />
+    <option name="totallyTimeSpent" value="54851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29017857" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29500756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
@@ -262,8 +245,14 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" visible="true" weight="0.30769232" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -461,13 +450,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.scss" />
-    <entry file="file://$PROJECT_DIR$/our-dream-project/node_modules/@angular-devkit/core/node/resolve.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="140" column="10" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/our-dream-project/node_modules/@angular-devkit/core/node/resolve.js" />
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/content.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -522,17 +505,17 @@
     <entry file="file://$PROJECT_DIR$/our-dream-project/src/polyfills.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.html">
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="272">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -543,10 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.css">
+    <entry file="file://$PROJECT_DIR$/our-dream-project/src/app/timesheet-by-day/content/table/table.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>

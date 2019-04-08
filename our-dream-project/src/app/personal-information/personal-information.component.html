@@ -1,0 +1,24 @@
+<div class="personal-info-container">
+  <img src="../../assets/Company%20Images/duck.png" alt="" class="avatar">
+  <h2 class="employee_name">{{employeeInfo.name}} {{employeeInfo.surname}}</h2>
+  <div class="workload_container">
+    <span>Workload: </span>
+    <app-time-input></app-time-input>
+  </div>
+  <div class="role_select_container">
+    <app-role-select [role]="employeeInfo.role"></app-role-select>
+    <i class="far fa-question-circle"></i>
+  </div>
+  <div class="toggler_container">
+    <span>Deactivate</span>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+    <span>Activate</span>
+  </div>
+</div>
+<span class="employee_mail-phone">
+  <span>{{employeeInfo.mail}}</span>
+  <span>{{employeeInfo.phone}}</span>
+</span>
