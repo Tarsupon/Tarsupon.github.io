@@ -9,6 +9,14 @@ import { SidebarItemsComponent } from './sidebar/sidebar-items/sidebar-items.com
 import { SidebarPersonInformationComponent } from './sidebar/sidebar-person-information/sidebar-person-information.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// <<<<<<< create-project
+// =======
+// import { TableComponent } from './timesheet-by-day/content/table/table.component';
+// import { SignInComponent } from './sign-in/sign-in.component';
+// import { SignUpComponent } from './sign-up/sign-up.component';
+// import {MatIconModule} from '@angular/material/icon';
+// import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+// >>>>>>> master
 import {
   MatInputModule,
   MatSelectModule,
