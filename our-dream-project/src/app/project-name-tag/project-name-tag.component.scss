@@ -1,11 +1,12 @@
-.option, .select {
+.project-name-container {
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  width: 282px;
+  height: 64px;
 }
 
-.color {
+.color{
   margin: 0px 0px 0px 19px;
   border-radius: 50%;
   width: 24px;
@@ -13,8 +14,7 @@
 }
 
 .name {
-  width: 94px;
-  margin: 0px 0px 0px 12px;
+  margin: 0px 10px 0px 12px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -25,10 +25,14 @@
   color: #323C47;
 }
 
-mat-form-field {
-  width: 202px;
-}
+.tag {
+  margin: 0px 0px 0px 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: normal;
+  letter-spacing: 0.01em;
 
-::ng-deep .mat-form-field-underline {
-  display: none;
+  color: #8C8C8C;
 }

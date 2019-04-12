@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {FormControl} from "@angular/forms";
 
 @Component({
   selector: 'app-role-select',
@@ -7,7 +8,31 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class RoleSelectComponent implements OnInit {
   @Input() role: string;
-  roles: Array<string> = ['Project Manager', 'Employee', 'Owner', 'Admin', 'HR Manager'];
+  roles = [
+    {
+      id: 1,
+      name: 'Project Manager'
+    },
+    {
+      id: 2,
+      name: 'Employee'
+    },
+    {
+      id: 3,
+      name: 'Owner'
+    },
+    {
+      id: 4,
+      name: 'Admin'
+    },
+    {
+      id: 5,
+      name: 'HR Manager'
+    }
+  ];
+
+  selectedRoleId = 2;
+  selectedRole = new FormControl(this.roles[this.selectedRoleId - 1]);
   constructor() { }
 
   ngOnInit() {

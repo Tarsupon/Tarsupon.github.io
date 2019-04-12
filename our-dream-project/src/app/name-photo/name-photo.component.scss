@@ -1,34 +1,26 @@
-.option, .select {
+.name-photo-container {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
+  width: 191px;
+  height: 64px;
 }
 
-.color {
-  margin: 0px 0px 0px 19px;
+.person-photo{
   border-radius: 50%;
   width: 24px;
   height: 24px;
 }
 
 .name {
-  width: 94px;
-  margin: 0px 0px 0px 12px;
+  margin: 5px 0px 0px 0px;
+  width: 132px;
+  height: 23px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: normal;
   letter-spacing: 0.01em;
-
   color: #323C47;
-}
-
-mat-form-field {
-  width: 202px;
-}
-
-::ng-deep .mat-form-field-underline {
-  display: none;
 }

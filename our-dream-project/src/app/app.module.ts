@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatPaginatorModule } from '@angular/material/paginator';
-
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
@@ -30,6 +30,9 @@ import { CellComponent } from './cell/cell.component';
 import { ProjectSelectComponent } from './project-select/project-select.component';
 import { TimeInputComponent } from './time-input/time-input.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ContentComponent } from './content/content.component';
+import { NamePhotoComponent } from './name-photo/name-photo.component';
+import { ProjectNameTagComponent } from './project-name-tag/project-name-tag.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +54,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     SignUpComponent,
     ForgotPasswordComponent,
     PageNotFoundComponent,
+    ContentComponent,
+    NamePhotoComponent,
+    ProjectNameTagComponent,
   ],
   imports: [
     BrowserModule,
@@ -62,6 +68,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MatSelectModule,
     MatInputModule,
     MatIconModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
