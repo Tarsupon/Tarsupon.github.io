@@ -9,14 +9,11 @@ import { SidebarItemsComponent } from './sidebar/sidebar-items/sidebar-items.com
 import { SidebarPersonInformationComponent } from './sidebar/sidebar-person-information/sidebar-person-information.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// <<<<<<< create-project
-// =======
-// import { TableComponent } from './timesheet-by-day/content/table/table.component';
-// import { SignInComponent } from './sign-in/sign-in.component';
-// import { SignUpComponent } from './sign-up/sign-up.component';
-// import {MatIconModule} from '@angular/material/icon';
-// import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
-// >>>>>>> master
+//import { TableComponent } from './timesheet-by-day/content/table/table.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import {MatIconModule} from '@angular/material/icon';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import {
   MatInputModule,
   MatSelectModule,
@@ -32,6 +29,7 @@ import { TableComponent } from './table/table.component';
 import { CellComponent } from './cell/cell.component';
 import { ProjectSelectComponent } from './project-select/project-select.component';
 import { TimeInputComponent } from './time-input/time-input.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +47,10 @@ import { TimeInputComponent } from './time-input/time-input.component';
     CellComponent,
     ProjectSelectComponent,
     TimeInputComponent,
+    SignInComponent,
+    SignUpComponent,
+    ForgotPasswordComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,7 +60,8 @@ import { TimeInputComponent } from './time-input/time-input.component';
     MatPaginatorModule,
     MatSortModule,
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
