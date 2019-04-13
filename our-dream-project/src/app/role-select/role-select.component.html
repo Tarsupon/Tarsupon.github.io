@@ -1,8 +1,10 @@
-<select name="role_select" id="role_select" [value]="role">
-  <option *ngFor="let role of roles" [value]="role">{{role}}</option>
-  <!--<option value="ProjectManager">Project Manager</option>-->
-  <!--<option value="Employee">Employee</option>-->
-  <!--<option value="Owner">Owner</option>-->
-  <!--<option value="Admin">Admin</option>-->
-  <!--<option value="HR">HR Manager</option>-->
-</select>
+<mat-form-field>
+  <mat-select [formControl]="selectedRole">
+    <mat-select-trigger>
+      <p class="role">{{selectedRole.value.name}}</p>
+    </mat-select-trigger>
+    <mat-option *ngFor="let role of roles" [value]="role">
+      <p class="role">{{role.name}}</p>
+    </mat-option>
+  </mat-select>
+</mat-form-field>
