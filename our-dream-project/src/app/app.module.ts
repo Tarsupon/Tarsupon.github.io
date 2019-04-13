@@ -4,16 +4,14 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TimesheetByDayComponent } from './timesheet-by-day/timesheet-by-day.component';
-import { SidebarComponent } from './timesheet-by-day/sidebar/sidebar.component';
-import { SidebarItemsComponent } from './timesheet-by-day/sidebar/sidebar-items/sidebar-items.component';
-import { SidebarPersonInformationComponent } from './timesheet-by-day/sidebar/sidebar-person-information/sidebar-person-information.component';
-import { ContentComponent } from './timesheet-by-day/content/content.component';
-import { HeaderComponent } from './timesheet-by-day/header/header.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { SidebarItemsComponent } from './sidebar-items/sidebar-items.component';
+import { SidebarPersonInformationComponent } from './sidebar-person-information/sidebar-person-information.component';
+import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { SignInComponent } from './sign-in/sign-in.component';
-// import { SignUpComponent } from './sign-up/sign-up.component';
-// import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ChartsModule} from "ng2-charts";
 import {
   MatInputModule,
@@ -28,24 +26,24 @@ import { CalendarPickerComponent } from './calendar-picker/calendar-picker.compo
 import {FormsModule} from "@angular/forms";
 import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
 import { SelectComponent } from './select/select.component';
+import { StackedDiagramComponent } from './stacked-diagram/stacked-diagram.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TimesheetByDayComponent,
     SidebarComponent,
     SidebarItemsComponent,
     SidebarPersonInformationComponent,
-    ContentComponent,
     HeaderComponent,
     ControlBarComponent,
     ThreeBlueButtonsComponent,
     CalendarPickerComponent,
     DoughnutChartComponent,
     SelectComponent,
-    // SignInComponent,
-    // SignUpComponent,
-    // ForgotPasswordComponent,
+    SignInComponent,
+    SignUpComponent,
+    ForgotPasswordComponent,
+    StackedDiagramComponent,
   ],
   imports: [
     BrowserModule,
