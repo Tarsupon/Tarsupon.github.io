@@ -1,0 +1,10 @@
+<mat-form-field>
+  <mat-select [formControl]="selectedRole">
+    <mat-select-trigger>
+      <p class="role">{{selectedRole.value.name}}</p>
+    </mat-select-trigger>
+    <mat-option *ngFor="let role of roles" [value]="role">
+      <p class="role">{{role.name}}</p>
+    </mat-option>
+  </mat-select>
+</mat-form-field>

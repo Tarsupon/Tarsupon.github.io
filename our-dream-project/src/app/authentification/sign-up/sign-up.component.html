@@ -1,0 +1,39 @@
+<body>
+<div class="login-page">
+  <div class="form">
+    <form action="#" method="post" class="login_form">
+      <input
+        id="name_field_id"
+        type="text"
+        name="name_field"
+        placeholder="full name"
+        required
+      />
+      <br />
+      <input
+        id="email_field_id"
+        type="text"
+        name="email_field"
+        placeholder="email"
+        required
+      />
+      <br />
+      <div class="password-div">
+        <input
+          id="password_field_id"
+          [type]="show ? 'text' : 'password'"
+          name="password_field"
+          placeholder="password"
+          required
+        />
+        <mat-icon (click)="password()">remove_red_eye</mat-icon>
+      </div>
+      <br />
+      <br />
+      <button routerLink="" class="submit" type="submit" >Sign Up</button>
+      <p class="sign-up">Already have an account? </p>
+      <a routerLink="" href="/">Sign in</a>
+    </form>
+  </div>
+</div>
+</body>

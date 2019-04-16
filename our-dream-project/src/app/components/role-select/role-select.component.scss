@@ -1,0 +1,19 @@
+.role {
+  margin: 0 auto;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: normal;
+  letter-spacing: 0.01em;
+
+  color: #707683;
+}
+
+mat-form-field {
+  width: 120px;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}

@@ -1,0 +1,16 @@
+<mat-form-field>
+  <mat-select [formControl]="selectedProject">
+    <mat-select-trigger>
+      <div class="select">
+        <div class="color" [style.backgroundColor]="selectedProject.value.color"></div>
+        <p class="name">{{selectedProject.value.name}}</p>
+      </div>
+    </mat-select-trigger>
+    <mat-option *ngFor="let project of projects" [value]="project">
+      <div class="option">
+        <div class="color" [style.backgroundColor]="project.color"></div>
+        <p class="name">{{project.name}}</p>
+      </div>
+    </mat-option>
+  </mat-select>
+</mat-form-field>

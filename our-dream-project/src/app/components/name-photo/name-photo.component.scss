@@ -1,0 +1,26 @@
+.name-photo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 191px;
+  height: 64px;
+}
+
+.person-photo{
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.name {
+  margin: 5px 0px 0px 0px;
+  width: 132px;
+  height: 23px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: normal;
+  letter-spacing: 0.01em;
+  color: #323C47;
+}

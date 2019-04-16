@@ -1,0 +1,25 @@
+h2{
+  margin-left: -150px;
+  margin-top: -20px;
+}
+h3{
+  margin-top: -30px;
+}
+#canvas{
+  width: auto;
+  height: auto;
+
+}
+.chart-total{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.c{
+  height: 450px;
+  padding: 10px;
+  width: 260px;
+  float: left;
+  align-items: center;
+  display: flex;
+}

@@ -1,17 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatPaginatorModule } from '@angular/material/paginator';
-
-import { AppRoutingModule } from './app-routing.module';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { SidebarItemsComponent } from './sidebar-items/sidebar-items.component';
-import { SidebarPersonInformationComponent } from './sidebar-person-information/sidebar-person-information.component';
-import { HeaderComponent } from './header/header.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SignInComponent } from './sign-in/sign-in.component';
-import { SignUpComponent } from './sign-up/sign-up.component';
-import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ChartsModule} from "ng2-charts";
 import {
   MatInputModule,
@@ -20,34 +11,25 @@ import {
   MatTableModule,
   MatIconModule,
 } from '@angular/material';
-import { ControlBarComponent } from './control-bar/control-bar.component';
-import { ThreeBlueButtonsComponent } from './three-blue-buttons/three-blue-buttons.component';
-import { CalendarPickerComponent } from './calendar-picker/calendar-picker.component';
-import {FormsModule} from "@angular/forms";
-import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
-import { SelectComponent } from './select/select.component';
-import { StackedDiagramComponent } from './stacked-diagram/stacked-diagram.component';
+
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { AuthentificationModule} from "./authentification/authentification.module";
+import {RouterModule, Routes} from "@angular/router";
+import {ComponentsModule} from "./components/components.module";
+import {LayoutModule} from "./layout/layout.module";
+import {ViewsModule} from "./views/views.module";
+
+
+const routes: Routes = [
+
+];
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent,
-    SidebarItemsComponent,
-    SidebarPersonInformationComponent,
-    HeaderComponent,
-    ControlBarComponent,
-    ThreeBlueButtonsComponent,
-    CalendarPickerComponent,
-    DoughnutChartComponent,
-    SelectComponent,
-    SignInComponent,
-    SignUpComponent,
-    ForgotPasswordComponent,
-    StackedDiagramComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     MatTableModule,
     MatPaginatorModule,
@@ -56,9 +38,16 @@ import { StackedDiagramComponent } from './stacked-diagram/stacked-diagram.compo
     MatInputModule,
     MatIconModule,
     FormsModule,
-    ChartsModule
+    ChartsModule,
+    ReactiveFormsModule,
+    AuthentificationModule,
+    ViewsModule,
+    RouterModule.forRoot(routes),
+    ComponentsModule,
+    LayoutModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: []
 })
 export class AppModule { }
