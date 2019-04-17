@@ -23,9 +23,10 @@ import {SidebarItemsComponent} from "./sidebar-items/sidebar-items.component";
 import {SidebarPersonInformationComponent} from "./sidebar-person-information/sidebar-person-information.component";
 import {HeaderComponent} from "./header/header.component";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {MatSelectModule} from "@angular/material";
+import {MatCheckboxModule, MatSelectModule} from "@angular/material";
 import {RouterModule} from "@angular/router";
 import {CompanyProjectSettingsComponent} from "./company-project-settings/company-project-settings.component";
+
 
 @NgModule({
   entryComponents: [
@@ -67,7 +68,9 @@ import {CompanyProjectSettingsComponent} from "./company-project-settings/compan
     DoughnutChartComponent,
     TileComponent,
     CalendarPickerComponent,
-    CompanyProjectSettingsComponent
+    CompanyProjectSettingsComponent,
+    ProjectSelectComponent,
+    RoleSelectComponent
   ],
   imports: [
     CommonModule,
@@ -75,7 +78,7 @@ import {CompanyProjectSettingsComponent} from "./company-project-settings/compan
     ReactiveFormsModule,
     MatSelectModule,
     RouterModule,
-
+    MatCheckboxModule,
   ]
 })
 export class ComponentsModule { }

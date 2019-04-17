@@ -5,7 +5,40 @@
   background: #FFFFFF;
   border-radius: 4px;
 }
+div{
+  text-align: center;
+  font-family: Poppins;
+}
 .comp-header{
   display: flex;
   justify-content: space-between;
+}
+.save-button{
+  outline: none;
+  border: 1px solid #109CF1;
+  border-radius: 4px;
+  background: none;
+  transition-duration: 0.4s;
+  width: 100px;
+  height: 27px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 11px;
+  letter-spacing: 0.01em;
+  color: #6A707E;
+  cursor: pointer;
+}
+.save-button:hover {
+  background-color: #109CF1;
+  color: white;
+}
+.save-button:focus{
+  background-color: #109CF1;
+  color: #6A707E;
+}
+.company-activities{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
 }

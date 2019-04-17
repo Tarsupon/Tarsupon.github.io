@@ -6,6 +6,7 @@ import {EmployeesComponent} from "./employees/employees.component";
 import {ComponentsModule} from "../components/components.module";
 import {TimesheetsComponent} from "./timesheets/timesheets.component";
 import {CompanySettingsComponent} from "./company-settings/company-settings.component";
+import {NgbProgressbarModule} from "@ng-bootstrap/ng-bootstrap";
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {CompanySettingsComponent} from "./company-settings/company-settings.comp
     CommonModule,
     ViewsRoutingModule,
     ComponentsModule,
-    RouterModule
+    RouterModule,
+    NgbProgressbarModule
   ]
 })
 export class ViewsModule { }
