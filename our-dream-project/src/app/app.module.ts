@@ -4,6 +4,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ChartsModule} from "ng2-charts";
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 import {
   MatInputModule,
   MatSelectModule,
@@ -29,6 +31,7 @@ const routes: Routes = [
     AppComponent,
   ],
   imports: [
+    NgbModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatTableModule,

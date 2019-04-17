@@ -7,6 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class CompanyProjectSettingsComponent implements OnInit {
   companyName: string = "Microsoft Inc.";
+  saveButtonName: string = "Save";
 
   constructor() { }
 
