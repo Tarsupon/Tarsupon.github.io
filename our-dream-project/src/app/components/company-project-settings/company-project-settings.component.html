@@ -1,17 +1,56 @@
 <div class="main-container">
+  <form>
   <div class="comp-header">
     <h2> {{companyName}}</h2>
     <button class="save-button">{{saveButtonName}} </button>
   </div>
   <div class="other-content">
     <div class="company-activities">
-      <h3> Company activities:</h3>
-      <mat-checkbox></mat-checkbox>
+        <p> Company activities:</p>
+        <mat-checkbox>Vacation</mat-checkbox>
+        <mat-checkbox>Sick Leave</mat-checkbox>
+        <mat-checkbox>Business Trip</mat-checkbox>
     </div>
-    <div class="default-projects"></div>
-    <div class="start-week-from"></div>
-    <div class="default-workload"></div>
+    <div class="default-projects">
+      <p> Default projects:</p>
+      <app-select-default-project></app-select-default-project>
+    </div>
+    <div class="start-week-from">
+      <p> Start week from:</p>
+      <mat-radio-group class="radio-group">
+        <mat-radio-button class="radio-button" *ngFor="let day of days" [value]="day">
+          {{day}}
+        </mat-radio-button>
+      </mat-radio-group>
+    </div>
+    <div class="default-workload">
+      <p> Default workload:</p>
+          <mat-form-field>
+            <div class="container">
+            <label>
+              <input matInput type="number" [value]="selectedHours">
+            </label>
+            <p>hours per</p>
+            <label>
+              <mat-select [formControl]="selected" class="period-select">
+                <mat-select-trigger>
+                  <div class="select">
+                    <p class="name">{{selected.value.name}}</p>
+                  </div>
+                </mat-select-trigger>
+                <mat-option *ngFor="let period of periods" [value]="period">
+                  <div class="option">
+                    <p class="name">{{period.name}}</p>
+                  </div>
+                </mat-option>
+              </mat-select>
+            </label>
+            </div>
+          </mat-form-field>
+    </div>
   </div>
+  </form>
 </div>
+
 
 

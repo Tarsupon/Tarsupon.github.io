@@ -1,0 +1,78 @@
+<div class="main-container">
+  <form>
+    <div class="comp-header">
+      <h3> Approval period:</h3>
+    </div>
+    <div class="other-content">
+      <div class="approval-period">
+          <p>Approval period:</p>
+          <label>
+            <mat-select [formControl]="selected" class="period-select">
+              <mat-select-trigger>
+                <div class="select">
+                  <p class="name">{{selected.value.name}}</p>
+                </div>
+              </mat-select-trigger>
+              <mat-option *ngFor="let period of periods" [value]="period" >
+                <div class="option">
+                  <p class="name">{{period.name}}</p>
+                </div>
+              </mat-option>
+            </mat-select>
+          </label>
+        <mat-slide-toggle>Submit Time logs automatically in the end of period</mat-slide-toggle>
+      </div>
+      <div class="difference">
+        <p>Notify about difference between expected and actual time:</p>
+        <div class="row">
+          <mat-checkbox>
+          <mat-select [formControl]="selectedWarnNotification" class="notification-select" [ngStyle]="{'background': selectedWarnNotification.value.backgroundColor}">
+            <mat-select-trigger>
+              <div class="select">
+                <p class="name">{{selectedWarnNotification.value.name}}</p>
+              </div>
+            </mat-select-trigger>
+            <mat-option *ngFor="let notification of notifications" [value]="notification" [ngStyle]="{'background': notification.backgroundColor }">
+              <div class="option">
+                <p class="name">{{notification.name}}</p>
+              </div>
+            </mat-option>
+          </mat-select>
+          </mat-checkbox>
+          <p><=
+            <label>
+              <input matInput type="number" [value]="lessThanValue">
+            </label>
+            %
+          </p>
+        </div>
+        <div class="row">
+          <mat-checkbox>
+          <mat-select [formControl]="selectedErrorNotification" class="notification-select" [ngStyle]="{'background': selectedErrorNotification.value.backgroundColor}">
+            <mat-select-trigger>
+              <div class="select">
+                <p class="name">{{selectedErrorNotification.value.name}}</p>
+              </div>
+            </mat-select-trigger>
+            <mat-option *ngFor="let notification of notifications" [value]="notification" [ngStyle]="{'background': notification.backgroundColor }">
+              <div class="option">
+                <p class="name">{{notification.name}}</p>
+              </div>
+            </mat-option>
+          </mat-select>
+          </mat-checkbox>
+          <p>>=
+            <label>
+              <input matInput type="number" [value]="moreThanValue">
+            </label>
+            %
+          </p>
+        </div>
+      </div>
+      <div class="forget-timesheets">
+        <mat-slide-toggle>Ability to forget timesheets</mat-slide-toggle>
+      </div>
+
+    </div>
+  </form>
+</div>
