@@ -1,0 +1,26 @@
+.option, .select {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name {
+  width: 94px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: normal;
+  letter-spacing: 0.01em;
+
+  color: #323C47;
+}
+
+mat-form-field {
+  width: 150px;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}

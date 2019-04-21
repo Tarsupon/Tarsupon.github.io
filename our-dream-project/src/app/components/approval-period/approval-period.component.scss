@@ -1,0 +1,49 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+}
+.other-content{
+  display: flex;
+  justify-content: space-around;
+}
+.approval-period{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 360px;
+  height: 150px;
+}
+.difference{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+  height: 150px;
+}
+.row{
+  display: flex;
+  align-items: center;
+}
+.period-select{
+  width: 155px;
+}
+.notification-select{
+  width: 60px;
+}
+.mat-checkbox{
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.mat-select, .mat-option{
+  height: 23px;
+}
+input{
+  border-bottom: 1px solid gray;
+  width: 30px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

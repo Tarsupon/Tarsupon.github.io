@@ -7,12 +7,15 @@ import * as Chart from "chart.js";
   styleUrls: ['./doughnut-chart.component.scss']
 })
 export class DoughnutChartComponent implements OnInit {
+
   public doughnutChartLabels = ['Skype', 'Word', 'Windows', 'LinkedIn'];
   public doughnutChartData = [2.5, 2.8, 0.4, 1];
   public requiredDoughnutChartData = [3, 2, 1, 2];
   public doughnutChartType = 'doughnut';
   public doughnutChartBackgroundColors =["rgb(255,86,53)",'rgb(253,68,255)','rgb(24,113,255)','rgba(37,255,38,0.98)'];
 
+  private chart: Chart;
+  private value: string = this.totalMaker(this.doughnutChartData, this.requiredDoughnutChartData);
 
   public labelsMaker(doughnutChartData:number[], requiredDoughnutChartData:number[], doughnutChartLabels: string[]) {
     let expression:string ="";
@@ -36,15 +39,11 @@ export class DoughnutChartComponent implements OnInit {
     return expression;
   }
 
-  private chart: Chart;
-  value: string = this.totalMaker(this.doughnutChartData, this.requiredDoughnutChartData);
 
 
-  constructor() {
-  }
+  constructor() {}
 
   ngOnInit() {
-
     this.chart = new Chart('canvas', {
       type: this.doughnutChartType,
       data: {
@@ -81,4 +80,5 @@ export class DoughnutChartComponent implements OnInit {
     });
 
   }
+
 }

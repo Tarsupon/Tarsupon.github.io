@@ -1,9 +1,8 @@
 .main-container{
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  background: #FFFFFF;
-  border-radius: 4px;
+  background: none;
+  height: 190px;
 }
 div{
   text-align: center;
@@ -36,9 +35,62 @@ div{
   background-color: #109CF1;
   color: #6A707E;
 }
+.other-content{
+  display: flex;
+  justify-content: space-around;
+}
 .company-activities{
   display: flex;
+  width: 131px;
+  height: 140px;
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
   margin: 10px;
+}
+.default-projects{
+  display: flex;
+  width: 150px;
+  height: 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+}
+.start-week-from{
+  display: flex;
+  width: 150px;
+  height: 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+}
+.default-workload{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 140px;
+  align-items: flex-start;
+  margin: 10px;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.container{
+  display: flex;
+}
+.period-select{
+  width: 60px;
+}
+.mat-select, .mat-option{
+  height: 23px;
+}
+input{
+  border-bottom: 1px solid gray;
+  width: 30px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

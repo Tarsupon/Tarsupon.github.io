@@ -23,10 +23,21 @@ import {SidebarItemsComponent} from "./sidebar-items/sidebar-items.component";
 import {SidebarPersonInformationComponent} from "./sidebar-person-information/sidebar-person-information.component";
 import {HeaderComponent} from "./header/header.component";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {MatCheckboxModule, MatSelectModule} from "@angular/material";
+import {
+  MatButtonModule,
+  MatCheckboxModule,
+  MatInputModule,
+  MatRadioModule,
+  MatSelectModule,
+  MatSlideToggleModule
+} from "@angular/material";
 import {RouterModule} from "@angular/router";
 import {CompanyProjectSettingsComponent} from "./company-project-settings/company-project-settings.component";
-
+import { SelectDefaultProjectComponent } from './select-default-project/select-default-project.component';
+import { ApprovalPeriodComponent } from './approval-period/approval-period.component';
+import { SettingsCommentsComponent } from './settings-comments/settings-comments.component';
+import { ConnectedIntegrationsComponent } from './connected-integrations/connected-integrations.component';
+import * as d3 from "d3";
 
 @NgModule({
   entryComponents: [
@@ -58,6 +69,10 @@ import {CompanyProjectSettingsComponent} from "./company-project-settings/compan
     SidebarPersonInformationComponent,
     HeaderComponent,
     CompanyProjectSettingsComponent,
+    SelectDefaultProjectComponent,
+    ApprovalPeriodComponent,
+    SettingsCommentsComponent,
+    ConnectedIntegrationsComponent,
   ],
   exports: [
     SidebarComponent,
@@ -70,7 +85,10 @@ import {CompanyProjectSettingsComponent} from "./company-project-settings/compan
     CalendarPickerComponent,
     CompanyProjectSettingsComponent,
     ProjectSelectComponent,
-    RoleSelectComponent
+    RoleSelectComponent,
+    ApprovalPeriodComponent,
+    SettingsCommentsComponent,
+    ConnectedIntegrationsComponent
   ],
   imports: [
     CommonModule,
@@ -79,6 +97,10 @@ import {CompanyProjectSettingsComponent} from "./company-project-settings/compan
     MatSelectModule,
     RouterModule,
     MatCheckboxModule,
+    MatRadioModule,
+    MatInputModule,
+    MatSlideToggleModule,
+    MatButtonModule,
   ]
 })
 export class ComponentsModule { }
