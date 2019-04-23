@@ -1,0 +1,9 @@
+<div class="progress-bar-wrapper">
+  <div class="p-wrapper" [ngStyle]="{'width': getSizeOfBar(bar.value, bar.max)}">
+    <p [ngStyle]="{'left': (bar.value === 0) ? '0%' : getPositionOfTitle(bar.value, bar.max)}">{{bar.value + 'h'}}</p>
+  </div>
+  <div class="bar-wrapper" [ngStyle]="{'width': getSizeOfBar(bar.value, bar.max)}">
+    <div class="bar" [ngStyle]="{'background': (bar.value <= bar.max) ? '' : bar.color, 'border': '1px solid ' + bar.color, 'opacity': (bar.value <= bar.max) ? '' : '0.5' }"></div>
+    <div class="progress" *ngIf="(!(bar.value === 0))" [ngStyle]="{'width': (bar.value <= bar.max) ? (bar.value * 100 / bar.max) + '%' : (bar.max * 100 / bar.value) + '%', 'background': bar.color, 'border': '1px solid ' + bar.color }"></div>
+  </div>
+</div>

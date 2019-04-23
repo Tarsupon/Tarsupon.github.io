@@ -38,12 +38,17 @@ import { ApprovalPeriodComponent } from './approval-period/approval-period.compo
 import { SettingsCommentsComponent } from './settings-comments/settings-comments.component';
 import { ConnectedIntegrationsComponent } from './connected-integrations/connected-integrations.component';
 import * as d3 from "d3";
+import {PlannedActualComponent} from "./planned-actual/planned-actual.component";
+import { ProjectsProgressBarComponent } from './components/projects-progress-bar/projects-progress-bar.component';
+import {AppComponent} from "../app.component";
 
 @NgModule({
   entryComponents: [
     ProjectSelectComponent,
     RoleSelectComponent,
     TimeInputComponent,
+    PlannedActualComponent,
+    ProjectsProgressBarComponent,
   ],
   declarations: [
     CalendarPickerComponent,
@@ -73,6 +78,7 @@ import * as d3 from "d3";
     ApprovalPeriodComponent,
     SettingsCommentsComponent,
     ConnectedIntegrationsComponent,
+    PlannedActualComponent,
   ],
   exports: [
     SidebarComponent,
