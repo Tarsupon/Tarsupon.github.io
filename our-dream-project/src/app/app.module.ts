@@ -13,13 +13,14 @@ import {
   MatTableModule,
   MatIconModule,
 } from '@angular/material';
-
+import { NgCircleProgressModule } from 'ng-circle-progress';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { AuthentificationModule} from "./authentification/authentification.module";
 import {RouterModule, Routes} from "@angular/router";
 import {ComponentsModule} from "./components/components.module";
 import {LayoutModule} from "./layout/layout.module";
 import {ViewsModule} from "./views/views.module";
+import { PendingApprovalComponent } from './components/pending-approval/pending-approval.component';
 
 
 const routes: Routes = [
@@ -29,6 +30,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
+    PendingApprovalComponent,
   ],
   imports: [
     NgbModule,
@@ -48,6 +50,25 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     ComponentsModule,
     LayoutModule,
+    NgCircleProgressModule.forRoot({
+      radius: 18,
+      space: -5,
+      toFixed: 0,
+      outerStrokeWidth: 5,
+      outerStrokeColor: "#00C537",
+      innerStrokeColor: "#e7e8ea",
+      innerStrokeWidth: 5,
+      titleColor: "#323C47",
+      titleFontSize: "10",
+      animation: true,
+      animationDuration: 1000,
+      showTitle: true,
+      showUnits: true,
+      showSubtitle: false,
+      showBackground: false,
+      clockwise: false,
+      startFromZero: false
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],
