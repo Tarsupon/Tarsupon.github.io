@@ -4,7 +4,6 @@ h3{
 #canvas{
   width: auto;
   height: auto;
-
 }
 .chart-total{
   display: flex;
@@ -18,4 +17,8 @@ h3{
   float: left;
   align-items: center;
   display: flex;
+}
+.center-text{
+  position: absolute;
+  margin-top: 180px;
 }

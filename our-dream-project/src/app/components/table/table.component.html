@@ -1,8 +1,0 @@
-<div class="container">
-  <h5>{{tableInfo.name}}:</h5>
-  <table>
-    <tr>
-      <app-cell *ngFor="let item of tableInfo.columns; let i=index" [ngComponentOutlet]="toRender[i]"></app-cell>
-    </tr>
-  </table>
-</div>

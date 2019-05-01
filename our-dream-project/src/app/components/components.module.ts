@@ -13,7 +13,6 @@ import {ProjectSelectComponent} from "./project-select/project-select.component"
 import {RoleSelectComponent} from "./role-select/role-select.component";
 import {SelectComponent} from "./select/select.component";
 import {StackedDiagramComponent} from "./stacked-diagram/stacked-diagram.component";
-import {TableComponent} from "./table/table.component";
 import {ThreeBlueButtonsComponent} from "./three-blue-buttons/three-blue-buttons.component";
 import {TileComponent} from "./tile/tile.component";
 import {TimeInputComponent} from "./time-input/time-input.component";
@@ -29,7 +28,7 @@ import {
   MatInputModule,
   MatRadioModule,
   MatSelectModule,
-  MatSlideToggleModule
+  MatSlideToggleModule, MatTableModule
 } from "@angular/material";
 import {RouterModule} from "@angular/router";
 import {CompanyProjectSettingsComponent} from "./company-project-settings/company-project-settings.component";
@@ -37,10 +36,11 @@ import { SelectDefaultProjectComponent } from './select-default-project/select-d
 import { ApprovalPeriodComponent } from './approval-period/approval-period.component';
 import { SettingsCommentsComponent } from './settings-comments/settings-comments.component';
 import { ConnectedIntegrationsComponent } from './connected-integrations/connected-integrations.component';
-import * as d3 from "d3";
 import {PlannedActualComponent} from "./planned-actual/planned-actual.component";
-import { ProjectsProgressBarComponent } from './components/projects-progress-bar/projects-progress-bar.component';
+
 import {AppComponent} from "../app.component";
+import {ProjectsProgressBarComponent} from "./projects-progress-bar/projects-progress-bar.component";
+import { TimelogTableComponent} from './timelog-table/timelog-table.component';
 
 @NgModule({
   entryComponents: [
@@ -64,7 +64,6 @@ import {AppComponent} from "../app.component";
     RoleSelectComponent,
     SelectComponent,
     StackedDiagramComponent,
-    TableComponent,
     ThreeBlueButtonsComponent,
     TileComponent,
     TimeInputComponent,
@@ -79,13 +78,13 @@ import {AppComponent} from "../app.component";
     SettingsCommentsComponent,
     ConnectedIntegrationsComponent,
     PlannedActualComponent,
+    ProjectsProgressBarComponent,
   ],
   exports: [
     SidebarComponent,
     HeaderComponent,
     ControlBarComponent,
     ThreeBlueButtonsComponent,
-    TableComponent,
     DoughnutChartComponent,
     TileComponent,
     CalendarPickerComponent,
@@ -94,7 +93,9 @@ import {AppComponent} from "../app.component";
     RoleSelectComponent,
     ApprovalPeriodComponent,
     SettingsCommentsComponent,
-    ConnectedIntegrationsComponent
+    ConnectedIntegrationsComponent,
+    ProjectsProgressBarComponent,
+    PlannedActualComponent,
   ],
   imports: [
     CommonModule,
@@ -107,6 +108,7 @@ import {AppComponent} from "../app.component";
     MatInputModule,
     MatSlideToggleModule,
     MatButtonModule,
+    MatTableModule,
   ]
 })
 export class ComponentsModule { }

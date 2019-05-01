@@ -6,52 +6,28 @@ import * as Chart from "chart.js";
   templateUrl: './doughnut-chart.component.html',
   styleUrls: ['./doughnut-chart.component.scss']
 })
+
+
 export class DoughnutChartComponent implements OnInit {
 
-  public doughnutChartLabels = ['Skype', 'Word', 'Windows', 'LinkedIn'];
-  public doughnutChartData = [2.5, 2.8, 0.4, 1];
-  public requiredDoughnutChartData = [3, 2, 1, 2];
-  public doughnutChartType = 'doughnut';
-  public doughnutChartBackgroundColors =["rgb(255,86,53)",'rgb(253,68,255)','rgb(24,113,255)','rgba(37,255,38,0.98)'];
+  private DOUGHNUT_CHART_TYPE: string = "doughnut";
 
   private chart: Chart;
-  private value: string = this.totalMaker(this.doughnutChartData, this.requiredDoughnutChartData);
+  public totalValue;
 
-  public labelsMaker(doughnutChartData:number[], requiredDoughnutChartData:number[], doughnutChartLabels: string[]) {
-    let expression:string ="";
-    let arrayResult = [];
-    for(let i =0; i < doughnutChartLabels.length; i++){
-      expression = `${doughnutChartLabels[i]}     ${doughnutChartData[i]} / ${requiredDoughnutChartData[i]}`;
-      arrayResult.push(expression);
-      expression = null;
-    }
-    return arrayResult;
+  constructor() {
+    this.totalValue = this.getTotalValue(this.testDonutChartData);
   }
-
-  public totalMaker(doughnutChartData:number[], requiredDoughnutChartData:number[]){
-    let required: number = 0;
-    let existing: number = 0;
-    for(let i =0; i < doughnutChartData.length; i++){
-      existing += doughnutChartData[i];
-      required += requiredDoughnutChartData[i];
-    }
-    let expression: string = `${existing} / ${required}`;
-    return expression;
-  }
-
-
-
-  constructor() {}
 
   ngOnInit() {
     this.chart = new Chart('canvas', {
-      type: this.doughnutChartType,
+      type: this.DOUGHNUT_CHART_TYPE,
       data: {
-        labels: this.labelsMaker(this.doughnutChartData, this.requiredDoughnutChartData, this.doughnutChartLabels),
+        labels: this.getLabels(this.testDonutChartData),
         datasets: [
           {
-            data: this.doughnutChartData,
-            backgroundColor: this.doughnutChartBackgroundColors,
+            data: this.testDonutChartData.map(item => {return item.existingData}),
+            backgroundColor: this.testDonutChartData.map(item => {return item.backgroungColor}),
             fill: false
           },
         ]
@@ -81,4 +57,49 @@ export class DoughnutChartComponent implements OnInit {
 
   }
 
+ private testDonutChartData:ChartData[] = [
+    {
+      projectName: "Skype",
+      existingData: 2.5,
+      requiredData: 3,
+      backgroungColor: "rgb(255,86,53)",
+    },
+    {
+      projectName: "Word",
+      existingData: 2.8,
+      requiredData: 2,
+      backgroungColor: "rgb(253,68,255)",
+    },
+    {
+      projectName: "Windows",
+      existingData: 0.4,
+      requiredData: 1,
+      backgroungColor: "rgb(24,113,255)",
+    },
+    {
+      projectName: "Word",
+      existingData: 1,
+      requiredData: 2,
+      backgroungColor: "rgba(37,255,38,0.98)",
+    },
+  ];
+
+  private getLabels (donutChartData: ChartData[]): string[] {
+    return donutChartData.map(item => {
+      return `${item.projectName}   ${item.existingData} / ${item.requiredData}`;
+    });
+  }
+
+  private getTotalValue (donutChartData: ChartData[]): string{
+    const totalExisting = donutChartData.reduce((acc, item) => acc + item.existingData, 0);
+    const totalRequired = donutChartData.reduce((acc, item) => acc + item.requiredData, 0);
+    return `${totalExisting}/ ${totalRequired}`;
+  }
+}
+
+export class ChartData{
+  projectName:  string = "";
+  existingData: number = 0;
+  requiredData: number = 0;
+  backgroungColor: string = "";
 }
