@@ -39,7 +39,7 @@ import { SettingsCommentsComponent } from './settings-comments/settings-comments
 import { ConnectedIntegrationsComponent } from './connected-integrations/connected-integrations.component';
 import * as d3 from "d3";
 import {PlannedActualComponent} from "./planned-actual/planned-actual.component";
-import { ProjectsProgressBarComponent } from './components/projects-progress-bar/projects-progress-bar.component';
+import { ProjectsProgressBarComponent } from './projects-progress-bar/projects-progress-bar.component';
 import {AppComponent} from "../app.component";
 
 @NgModule({
@@ -79,6 +79,7 @@ import {AppComponent} from "../app.component";
     SettingsCommentsComponent,
     ConnectedIntegrationsComponent,
     PlannedActualComponent,
+    ProjectsProgressBarComponent,
   ],
   exports: [
     SidebarComponent,

@@ -1,0 +1,59 @@
+:host {
+  font-family: Poppins;
+  font-size: 10px;
+}
+
+.round-checks {
+  position: absolute;
+  width: 136px;
+  height: 20px;
+}
+
+.round-checks div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
+  background: #ffffff;
+  text-align: center;
+}
+
+.mat-icon {
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}
+
+.call_made {
+  left: 80%;
+}
+
+.done {
+  left: 65%;
+  color: #00c537;
+}
+
+.description {
+  margin: 12px 0px 0px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  padding-left: 46px;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+}
+
+.description p {
+  margin: 0px 0px;
+}
+
+.circle-wrapper {
+  margin-top: 9px;
+  position: absolute;
+}

@@ -1,0 +1,15 @@
+<div class="description" *ngIf="circle.active">
+  <p>{{ circle.datePeriod }}</p>
+  <p>{{ circle.value }} / {{ circle.max }}</p>
+</div>
+<div class="round-checks" *ngIf="circle.active">
+  <div class="done"><mat-icon>done</mat-icon></div>
+  <div class="call_made"><mat-icon>call_made</mat-icon>
+  </div>
+</div>
+<div class="circle-wrapper" (click)="changeCircleActivity()">
+  <circle-progress
+    [percent]="(circle.value * 100) / circle.max"
+    [outerStrokeColor]="circle.color"
+  ></circle-progress>
+</div>
