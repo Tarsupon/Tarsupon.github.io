@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CalendarPickerComponent } from "./calendar-picker/calendar-picker.component";
-import { CellComponent} from "./cell/cell.component";
 import { ContentComponent} from "./content/content.component";
 import {ControlBarComponent} from "./control-bar/control-bar.component";
 import {DoughnutChartComponent} from "./doughnut-chart/doughnut-chart.component";
@@ -38,9 +37,12 @@ import { SettingsCommentsComponent } from './settings-comments/settings-comments
 import { ConnectedIntegrationsComponent } from './connected-integrations/connected-integrations.component';
 import {PlannedActualComponent} from "./planned-actual/planned-actual.component";
 
-import {AppComponent} from "../app.component";
-import {ProjectsProgressBarComponent} from "./projects-progress-bar/projects-progress-bar.component";
-import { TimelogTableComponent} from './timelog-table/timelog-table.component';
+import { ProjectsProgressBarComponent } from './projects-progress-bar/projects-progress-bar.component';
+import {TimelogTableComponent} from "./timelog-table/timelog-table.component";
+import {RowComponent} from "./row/row.component";
+import {CellComponent} from "./cell/cell.component";
+
+
 
 @NgModule({
   entryComponents: [
@@ -52,6 +54,7 @@ import { TimelogTableComponent} from './timelog-table/timelog-table.component';
   ],
   declarations: [
     CalendarPickerComponent,
+    RowComponent,
     CellComponent,
     ContentComponent,
     ControlBarComponent,
@@ -79,6 +82,7 @@ import { TimelogTableComponent} from './timelog-table/timelog-table.component';
     ConnectedIntegrationsComponent,
     PlannedActualComponent,
     ProjectsProgressBarComponent,
+    TimelogTableComponent,
   ],
   exports: [
     SidebarComponent,
@@ -86,6 +90,7 @@ import { TimelogTableComponent} from './timelog-table/timelog-table.component';
     ControlBarComponent,
     ThreeBlueButtonsComponent,
     DoughnutChartComponent,
+    CellComponent,
     TileComponent,
     CalendarPickerComponent,
     CompanyProjectSettingsComponent,
@@ -96,6 +101,7 @@ import { TimelogTableComponent} from './timelog-table/timelog-table.component';
     ConnectedIntegrationsComponent,
     ProjectsProgressBarComponent,
     PlannedActualComponent,
+    TimelogTableComponent,
   ],
   imports: [
     CommonModule,

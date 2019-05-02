@@ -9,7 +9,20 @@
   </div>
   <div class="table-workload">
 
+    <app-tile>
+      <app-timelog-table>
+        <app-row *ngFor="let row of rows">
+          <app-cell>
+            <app-project-select></app-project-select>
+          </app-cell>
+          <app-cell>
 
+          </app-cell>
+<!--          <app-cell *ngIf="first"></app-cell>-->
+<!--          <app-cell *ngIf="!first"><input [formControl]="fffControl" ></app-cell>-->
+        </app-row>
+      </app-timelog-table>
+    </app-tile>
 
     <app-tile>
       <app-doughnut-chart></app-doughnut-chart>

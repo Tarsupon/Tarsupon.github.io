@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class TimesheetsComponent implements OnInit {
   leftButtonName: string = 'Day';
   rightButtonName: string = 'Week';
+  rows =[
+    {
+      id: 1,
+    },
+  ];
 
   constructor() { }
 
