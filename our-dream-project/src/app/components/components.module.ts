@@ -102,6 +102,7 @@ import {CellComponent} from "./cell/cell.component";
     ProjectsProgressBarComponent,
     PlannedActualComponent,
     TimelogTableComponent,
+    TimeInputComponent,
   ],
   imports: [
     CommonModule,

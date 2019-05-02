@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {TableRow} from "../../entities/table-row";
 
 @Component({
   selector: 'app-timesheets',
@@ -8,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class TimesheetsComponent implements OnInit {
   leftButtonName: string = 'Day';
   rightButtonName: string = 'Week';
-  rows =[
+
+  rows: TableRow[] =[
     {
       id: 1,
+      // for what we need number here?
+      // can u help just with test data?
     },
   ];
 
