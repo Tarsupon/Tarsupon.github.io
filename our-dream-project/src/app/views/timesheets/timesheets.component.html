@@ -10,7 +10,7 @@
   <div class="table-workload">
 
     <app-tile>
-      <app-timelog-table>
+      <app-timelog-table [columns]="timelogTableColumns">
         <app-row *ngFor="let row of rows">
           <app-cell>
             <app-project-select></app-project-select>

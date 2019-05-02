@@ -103,6 +103,7 @@ import {CellComponent} from "./cell/cell.component";
     PlannedActualComponent,
     TimelogTableComponent,
     TimeInputComponent,
+    RowComponent,
   ],
   imports: [
     CommonModule,

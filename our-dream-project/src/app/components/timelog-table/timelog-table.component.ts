@@ -9,7 +9,7 @@ import {TableColumn} from "../../entities/table-column";
 })
 
 export class TimelogTableComponent implements OnInit {
-  @Input() columns: string[];
+  @Input() columns: TableColumn[];
 
   constructor() { }
 
