@@ -4,7 +4,11 @@
   height: 500px;
   width: 300px;
 }
-
+.head-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .mat-table {
   overflow: auto;
   height: 500px;

@@ -1,2 +1,7 @@
-<input type="text" name="workload" [value]="workload" class="workload_field">
+<input type="text"
+       name="workload"
+       [(ngModel)]="time"
+       class="workload_field"
+        (change)="sendTimeInputValue(time)"
+>
 <span>h/week</span>

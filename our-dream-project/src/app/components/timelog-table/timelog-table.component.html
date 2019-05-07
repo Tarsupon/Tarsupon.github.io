@@ -1,8 +1,8 @@
 <table class="table">
-  <tr>
-    <td *ngFor="let col of columns" >
+  <tr class="head-row">
+    <app-cell *ngFor="let col of columns" [ngStyle]="{'border':'white'}">
       {{col.name}}
-    </td>
+    </app-cell>
   </tr>
   <ng-content></ng-content>
 </table>

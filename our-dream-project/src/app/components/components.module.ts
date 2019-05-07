@@ -23,7 +23,7 @@ import {HeaderComponent} from "./header/header.component";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {
   MatButtonModule,
-  MatCheckboxModule,
+  MatCheckboxModule, MatIconModule,
   MatInputModule,
   MatRadioModule,
   MatSelectModule,
@@ -41,6 +41,8 @@ import { ProjectsProgressBarComponent } from './projects-progress-bar/projects-p
 import {TimelogTableComponent} from "./timelog-table/timelog-table.component";
 import {RowComponent} from "./row/row.component";
 import {CellComponent} from "./cell/cell.component";
+import { TableCommentComponent } from './table-comment/table-comment.component';
+import {ProjecySelectService} from "./project-select/projecy-select.service";
 
 
 
@@ -52,6 +54,10 @@ import {CellComponent} from "./cell/cell.component";
     PlannedActualComponent,
     ProjectsProgressBarComponent,
   ],
+  providers:[
+    ProjecySelectService,
+  ],
+
   declarations: [
     CalendarPickerComponent,
     RowComponent,
@@ -83,6 +89,7 @@ import {CellComponent} from "./cell/cell.component";
     PlannedActualComponent,
     ProjectsProgressBarComponent,
     TimelogTableComponent,
+    TableCommentComponent,
   ],
   exports: [
     SidebarComponent,
@@ -104,6 +111,7 @@ import {CellComponent} from "./cell/cell.component";
     TimelogTableComponent,
     TimeInputComponent,
     RowComponent,
+    TableCommentComponent,
   ],
   imports: [
     CommonModule,
@@ -117,6 +125,7 @@ import {CellComponent} from "./cell/cell.component";
     MatSlideToggleModule,
     MatButtonModule,
     MatTableModule,
+    MatIconModule,
   ]
 })
 export class ComponentsModule { }

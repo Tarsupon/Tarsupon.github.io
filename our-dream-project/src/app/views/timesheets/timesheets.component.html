@@ -11,18 +11,30 @@
 
     <app-tile>
       <app-timelog-table [columns]="timelogTableColumns">
-        <app-row *ngFor="let row of rows">
+        <app-row *ngFor="let log of logs; let i = index" (onClick)="deletRow($event)">
           <app-cell>
-            <app-project-select></app-project-select>
+            <app-project-select [projectName]="logs[i].projectName"
+                                [logs]="logs"
+            ></app-project-select>
+          </app-cell>
+          <app-cell>
+            <app-time-input [time]="logs[i].time"></app-time-input>
+          </app-cell>
+          <app-cell>
+            <app-table-comment [comment]="logs[i].comment"></app-table-comment>
+          </app-cell>
+        </app-row>
+<!--        add new row-->
+        <app-row (onAddClick)="addRow($event)" [isAddRow]="true">
+          <app-cell>
+            <app-project-select [logs]="logs"></app-project-select>
           </app-cell>
           <app-cell>
             <app-time-input></app-time-input>
           </app-cell>
           <app-cell>
-            <input type="text">
+            <app-table-comment></app-table-comment>
           </app-cell>
-<!--          <app-cell *ngIf="first"></app-cell>-->
-<!--          <app-cell *ngIf="!first"><input [formControl]="fffControl" ></app-cell>-->
         </app-row>
       </app-timelog-table>
     </app-tile>

@@ -1,5 +1,7 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {FormControl} from "@angular/forms";
+import {Log} from "../../entities/log";
+import {ProjecySelectService} from "./projecy-select.service";
 
 @Component({
   selector: 'app-project-select',
@@ -7,29 +9,22 @@ import {FormControl} from "@angular/forms";
   styleUrls: ['./project-select.component.scss']
 })
 export class ProjectSelectComponent implements OnInit {
-  projects = [
-    {
-      id: 1,
-      name: 'Windows',
-      color: 'red'
-    },
-    {
-      id: 2,
-      name: 'Chrome',
-      color: 'yellow'
-    },
-    {
-      id: 3,
-      name: 'BestProjectEver',
-      color: 'green'
-    }
-  ];
+  @Input() logs: Log[];
+  @Output() onProjectSelectChange = new EventEmitter();
 
-  selectedProjectId = 2;
-  selectedProject = new FormControl(this.projects[this.selectedProjectId - 1]);
-  constructor() { }
+  get projectName():string{
+    return this.projectSelectService.projectNameForService;
+  }
+  @Input() set projectName(value: string){
+    this.projectSelectService.projectNameForService = value;
+  }
+
+  constructor(public projectSelectService: ProjecySelectService) { }
 
   ngOnInit() {
   }
 
+  sendProjectSelectValue(projectName: string) {
+    this.onProjectSelectChange.emit(projectName);
+  }
 }

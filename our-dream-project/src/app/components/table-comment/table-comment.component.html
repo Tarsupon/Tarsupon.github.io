@@ -1,0 +1,7 @@
+ <mat-form-field >
+   <textarea matInput placeholder="Leave a comment"
+             [(ngModel)]="comment"
+             (change)="sendTableCommentValue(comment)"
+             required
+   ></textarea>
+ </mat-form-field>

@@ -1,3 +1,16 @@
-<td >
-  <ng-container></ng-container>
-</td>
+<tr class="row">
+  <ng-content></ng-content>
+  <td>
+    <div *ngIf="isAddRow; then thenBlock else elseBlock"></div>
+    <ng-template #thenBlock>
+      <button mat-icon-button class="delete-button" (click)="sendEvent($event)">
+        <mat-icon>add</mat-icon>
+      </button>
+    </ng-template>
+    <ng-template #elseBlock>
+      <button mat-icon-button class="delete-button" (click)="sendId(rowId)">
+        <mat-icon>clear</mat-icon>
+      </button>
+    </ng-template>
+  </td>
+</tr>

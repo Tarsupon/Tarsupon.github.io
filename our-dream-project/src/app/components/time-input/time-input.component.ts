@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-time-input',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./time-input.component.scss']
 })
 export class TimeInputComponent implements OnInit {
-  workload = 40;
+  @Input() time: number;
+
+  @Output() onTimeInputChange = new EventEmitter();
   constructor() { }
 
   ngOnInit() {
   }
 
+  sendTimeInputValue(time: number) {
+    this.onTimeInputChange.emit(time);
+  }
 }

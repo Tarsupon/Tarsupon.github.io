@@ -1,15 +1,11 @@
 <mat-form-field>
-  <mat-select [formControl]="selectedProject">
-    <mat-select-trigger>
-      <div class="select">
-        <div class="color" [style.backgroundColor]="selectedProject.value.color"></div>
-        <p class="name">{{selectedProject.value.name}}</p>
-      </div>
-    </mat-select-trigger>
-    <mat-option *ngFor="let project of projects" [value]="project">
+  <mat-select [(value)]="projectName"
+              required
+  >
+    <mat-option *ngFor="let project of logs; let i = index" [value]="project.projectName" (onSelectionChange)="sendProjectSelectValue(project.projectName)">
       <div class="option">
-        <div class="color" [style.backgroundColor]="project.color"></div>
-        <p class="name">{{project.name}}</p>
+<!--        <div class="color" [style.backgroundColor]="project.color"></div>-->
+        <p class="name">{{project.projectName}}</p>
       </div>
     </mat-option>
   </mat-select>

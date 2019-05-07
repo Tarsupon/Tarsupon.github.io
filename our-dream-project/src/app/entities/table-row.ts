@@ -1,10 +1,9 @@
 export class TableRow {
-  public id: number;
   public number: number;
-  // u said smth about number but i dont understood
+  public cellNumber: number;
 
-  constructor (id: number, number: number) {
-    this.id = id;
+  constructor (number: number, cellNumber?: number) {
     this.number = number;
+    this.cellNumber = cellNumber;
   }
 }

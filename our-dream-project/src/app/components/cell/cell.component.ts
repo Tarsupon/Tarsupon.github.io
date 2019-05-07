@@ -1,11 +1,12 @@
-import {Component, ComponentFactoryResolver, Input, OnInit, ViewChild, ViewContainerRef, ComponentRef} from '@angular/core';
+import {Component, ComponentFactoryResolver, Input, OnInit, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'app-cell',
   templateUrl: './cell.component.html',
-  styleUrls: ['./cell.component.scss']
+  styleUrls: ['./cell.component.scss'],
 })
 export class CellComponent implements OnInit {
+  @Input() ngStyle: {[key: string]: string;};
   // @Input() config: object;
   // @Input() tableInfo: object;
   //
